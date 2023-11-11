@@ -39,7 +39,7 @@ psql -h pg -d studs
 
 # <strong> <span style="color:blue"> Лабораторная 4.
 
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab3_1.png" width="400" height="400">
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_2.png" width="400" height="400">
 
 
 <img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab3_2.png" width="400" height="400" align = right>
