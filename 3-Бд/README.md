@@ -24,7 +24,7 @@ psql -h pg -d studs
 Каждый студент должен использовать свою схему при работе над лабораторной работой №2 (а также в рамках выполнения лабораторных работ 3, 4, 5).
 
 
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab2_1.png width="400" height="400">
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab2_1.png" width="400" height="400">
 
 
 <img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab2_2.png" width="400" height="400" align = right>
