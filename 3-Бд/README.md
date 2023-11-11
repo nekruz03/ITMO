@@ -24,10 +24,10 @@ psql -h pg -d studs
 Каждый студент должен использовать свою схему при работе над лабораторной работой №2 (а также в рамках выполнения лабораторных работ 3, 4, 5).
 
 
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_1.png" width="400" height="400">
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab2_1.png width="400" height="400">
 
 
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_2.png" width="400" height="400" align = right>
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab2_2.png" width="400" height="400" align = right>
 
 
 # <strong> <span style="color:blue"> Лабораторная 3.
@@ -36,13 +36,13 @@ psql -h pg -d studs
 Сформировать ER-модель и нарисовать ER-диаграмму предметной области, которая была описана в рамках лабораторной работы №1. ER-модель должна соответствовать описанию, представленному в лабораторной работе №1.
 На основе ER-модели построить даталогическую модель.
 
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_1.png" width="400" height="400">
+
+
+<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_2.png" width="400" height="400" align = right>
+
 
 # <strong> <span style="color:blue"> Лабораторная 4.
-
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/3_2.png" width="400" height="400">
-
-
-<img src="https://github.com/nekruz03/ITMO/blob/main/3-%D0%91%D0%B4/lab3_2.png" width="400" height="400" align = right>
 
 
 Для выполнения лабораторной работы №4 необходимо:
