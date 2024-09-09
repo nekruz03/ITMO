@@ -1,0 +1,130 @@
+lab2.c: In function ‘main’:
+lab2.c:62:21: warning: passing argument 1 of ‘fwsTanh_64f_A50’ from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |     fwsTanh_64f_A50(M1,M1, N);
+      |                     ^~
+      |                     |
+      |                     float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:1199:58: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+ 1199 | FwStatus STDCALL fwsTanh_64f_A50          ( const Fw64f *pSrc, Fw64f *pDst, int len );
+      |                                             ~~~~~~~~~~~~~^~~~
+lab2.c:62:24: warning: passing argument 2 of ‘fwsTanh_64f_A50’ from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |     fwsTanh_64f_A50(M1,M1, N);
+      |                        ^~
+      |                        |
+      |                        float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:1199:71: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+ 1199 | FwStatus STDCALL fwsTanh_64f_A50          ( const Fw64f *pSrc, Fw64f *pDst, int len );
+      |                                                                ~~~~~~~^~~~
+lab2.c:64:18: warning: passing argument 1 of ‘fwsAdd_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   64 |     fwsAdd_64f(M2+1, M2_copy, M2+1, N/2 - 1);
+      |                ~~^~
+      |                  |
+      |                  float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:31:59: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+   31 | FwStatus STDCALL fwsAdd_64f               ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                             ~~~~~~~~~~~~~~^~~~~
+lab2.c:64:22: warning: passing argument 2 of ‘fwsAdd_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   64 |     fwsAdd_64f(M2+1, M2_copy, M2+1, N/2 - 1);
+      |                      ^~~~~~~
+      |                      |
+      |                      float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:31:80: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+   31 | FwStatus STDCALL fwsAdd_64f               ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                                                  ~~~~~~~~~~~~~~^~~~~
+lab2.c:64:33: warning: passing argument 3 of ‘fwsAdd_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   64 |     fwsAdd_64f(M2+1, M2_copy, M2+1, N/2 - 1);
+      |                               ~~^~
+      |                                 |
+      |                                 float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:31:97: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+   31 | FwStatus STDCALL fwsAdd_64f               ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                                                                         ~~~~~~~~^~~~
+lab2.c:68:16: warning: passing argument 1 of ‘fwsDiv_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   68 |     fwsDiv_64f(M1, M2, M2, N/2);
+      |                ^~
+      |                |
+      |                float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:442:59: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+  442 | FwStatus STDCALL  fwsDiv_64f              ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                             ~~~~~~~~~~~~~~^~~~~
+lab2.c:68:20: warning: passing argument 2 of ‘fwsDiv_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   68 |     fwsDiv_64f(M1, M2, M2, N/2);
+      |                    ^~
+      |                    |
+      |                    float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:442:80: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+  442 | FwStatus STDCALL  fwsDiv_64f              ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                                                  ~~~~~~~~~~~~~~^~~~~
+lab2.c:68:24: warning: passing argument 3 of ‘fwsDiv_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   68 |     fwsDiv_64f(M1, M2, M2, N/2);
+      |                        ^~
+      |                        |
+      |                        float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:442:97: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+  442 | FwStatus STDCALL  fwsDiv_64f              ( const Fw64f  *pSrc1, const Fw64f  *pSrc2  , Fw64f  *pDst, int len );
+      |                                                                                         ~~~~~~~~^~~~
+lab2.c:76:17: warning: passing argument 1 of ‘fwsDivC_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |     fwsDivC_64f(M2,min, M2, N / 2);
+      |                 ^~
+      |                 |
+      |                 float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:467:59: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+  467 | FwStatus STDCALL  fwsDivC_64f             ( const Fw64f  *pSrc, Fw64f  val, Fw64f  *pDst   , int len );
+      |                                             ~~~~~~~~~~~~~~^~~~
+lab2.c:76:25: warning: passing argument 3 of ‘fwsDivC_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |     fwsDivC_64f(M2,min, M2, N / 2);
+      |                         ^~
+      |                         |
+      |                         float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:467:85: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+  467 | FwStatus STDCALL  fwsDivC_64f             ( const Fw64f  *pSrc, Fw64f  val, Fw64f  *pDst   , int len );
+      |                                                                             ~~~~~~~~^~~~
+lab2.c:82:16: warning: passing argument 1 of ‘fwsSin_64f_A50’ from incompatible pointer type [-Wincompatible-pointer-types]
+   82 | fwsSin_64f_A50(M2, M2, N/2);
+      |                ^~
+      |                |
+      |                float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:1116:58: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+ 1116 | FwStatus STDCALL fwsSin_64f_A50           ( const Fw64f *pSrc, Fw64f *pDst, int len );
+      |                                             ~~~~~~~~~~~~~^~~~
+lab2.c:82:20: warning: passing argument 2 of ‘fwsSin_64f_A50’ from incompatible pointer type [-Wincompatible-pointer-types]
+   82 | fwsSin_64f_A50(M2, M2, N/2);
+      |                    ^~
+      |                    |
+      |                    float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:1116:71: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+ 1116 | FwStatus STDCALL fwsSin_64f_A50           ( const Fw64f *pSrc, Fw64f *pDst, int len );
+      |                                                                ~~~~~~~^~~~
+lab2.c:84:14: warning: passing argument 1 of ‘fwsSum_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   84 |   fwsSum_64f(M2, N/2, &sum);
+      |              ^~
+      |              |
+      |              float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:952:59: note: expected ‘const Fw64f *’ {aka ‘const double *’} but argument is of type ‘float *’
+  952 | FwStatus STDCALL fwsSum_64f               ( const Fw64f  *pSrc, int len, Fw64f  *pSum );
+      |                                             ~~~~~~~~~~~~~~^~~~
+lab2.c:84:23: warning: passing argument 3 of ‘fwsSum_64f’ from incompatible pointer type [-Wincompatible-pointer-types]
+   84 |   fwsSum_64f(M2, N/2, &sum);
+      |                       ^~~~
+      |                       |
+      |                       float *
+In file included from lab2.c:7:
+FW_1.3.1_Lin64/fwSignal.h:952:82: note: expected ‘Fw64f *’ {aka ‘double *’} but argument is of type ‘float *’
+  952 | FwStatus STDCALL fwsSum_64f               ( const Fw64f  *pSrc, int len, Fw64f  *pSum );
+      |                                                                          ~~~~~~~~^~~~
+/home/anna/Desktop/studying/parallel/lab2/FW_1.3.1_Lin64/lib
+double free or corruption (out)
+./compile_script.sh: line 6: 19886 Aborted                 (core dumped) ./lab2 10 1
